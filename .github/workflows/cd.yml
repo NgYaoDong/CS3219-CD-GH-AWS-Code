@@ -33,4 +33,4 @@ jobs:
                 environment_name: AddressBookApp-env-1
                 version_label: ${{ env.VERSION }}
                 region: ap-southeast-1
-                deployment package: address-book-app.zip
+                deployment_package: address-book-app.zip
