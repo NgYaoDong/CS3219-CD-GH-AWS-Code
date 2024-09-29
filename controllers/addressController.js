@@ -46,9 +46,9 @@ const deleteAddress = async (req, res) => {
 
   try {
     await address.deleteOne()
-    res.status(200).json({ message: 'Address removed' })
+    res.status(200).json({ message: 'Address removed.' })
   } catch (error) {
-    res.status(404).json({ message: 'Address not found' })
+    res.status(404).json({ message: 'Address not found.' })
   }
 }
 
